@@ -1,4 +1,4 @@
-![Price Tracker Logo](./.github/logo.png)
+<img align="center" src="./.github/logo.png" alt="Price Tracker Logo">
 # Description
 *Price Tracker* is a full-stack web application to save your [Amazon](https://amazon.com) items and get daily emails to check when their prices drop.
 
@@ -6,7 +6,7 @@
 ![Demo](./.github/demo.gif)
 
 ### Daily email demo
-<img src="./.github/email.png" width="400" height="400" />
+<img src="./.github/email.png" width="400"/>
 
 ### Technologies
 Full-Stack web application that uses:
