@@ -6,7 +6,7 @@
 ![Demo](./.github/demo.gif)
 
 ### Daily email demo
-![Email Demo](./.github/email.png =250x)
+<img src="./.github/email.png" width="400" height="400" />
 
 ### Technologies
 Full-Stack web application that uses:
