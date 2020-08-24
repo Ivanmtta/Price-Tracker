@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./.github/logo.png" alt="Price Tracker Logo">
+  <img src="./.github/logo.png" alt="Price Tracker Logo" width="800">
 </div>
 
 # Description
