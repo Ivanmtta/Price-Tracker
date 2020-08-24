@@ -1,0 +1,101 @@
+*{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+body{
+  background-color: #fafafa !important;
+}
+
+.icon-button{
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+}
+
+.icon-button:active, .icon-button:hover{
+  outline: none;
+  color: #363636;
+}
+
+.icon-button:focus{
+  outline: none;
+}
+
+.card{
+  box-shadow: 0 3px 6px -6px black !important;
+}
+
+.navbar{
+  box-shadow: 0 3px 6px -6px black !important;
+}
+
+.container{
+	max-width: 1000px;
+}
+
+.custom-button{
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  background-position: center;
+  transition: background 0.8s;
+}
+
+.custom-button:hover{
+  background: #363636 radial-gradient(circle, transparent 1%, #363636 1%) center/15000%;
+}
+
+.custom-button:active{
+  background-color: black;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.custom-text-input{
+  position: relative;
+}
+
+.custom-text{
+  border: 0;
+  border-bottom: 1px solid #9e9e9e;
+  outline: none;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.custom-label{
+  top: 0;
+  left: 0; right: 0;
+  color: #616161;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 1rem;
+  cursor: text;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.custom-text, .custom-label{
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+.custom-text:valid, .custom-text:focus{
+  border-bottom: 1px solid black;  
+}
+
+.custom-text:focus + .custom-label, .custom-text:focus + .custom-label{
+  color: black;
+  font-size: .8rem;
+  top: -16px;
+  pointer-events: none;
+}
