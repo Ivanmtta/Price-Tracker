@@ -6,7 +6,7 @@
 ![Demo](./.github/demo.gif)
 
 ### Daily email demo
-![Email Demo](./.github/email.png)
+![Email Demo](./.github/email.png =250x)
 
 ### Technologies
 Full-Stack web application that uses:
